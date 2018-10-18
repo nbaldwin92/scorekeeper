@@ -1,0 +1,52 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Score Keeper</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="scorekeeper.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1 id="heading">Ping Pong Score Keeper</h1>
+		<hr>
+		<br> <br> <br> <br> <br>
+		<p id="winner-display"></p>
+
+		<div class="tableContainer">
+			<div class="tableLeft">
+				<h2 id="playerScore"><span>Player 1</span></h2>
+				<h2 id="p1Score">0</h2>
+				<button id="p1-add">+</button>
+				<img src="assets/paddle.png" alt="Ping Pong Paddle">
+				<button id="p1-minus">-</button>
+			</div>
+
+			<div class="tableRight">
+				<h2 id="playerScore"><span>Player 2</span></h2>
+				<h2 id="p2Score">0</h2>
+				<button id="p2-add">+</button>
+				<img src="assets/paddle.png" alt="Ping Pong Paddle">
+				<button id="p2-minus">-</button>
+			</div>
+		</div>
+
+
+
+		<div class="footer">
+			<p id="pointSelectText">Playing to:</p>
+			<select id="scoreSelect">
+				<option id="halfGame" value="11">11</option>
+				<option id="fullGame" value="21">21</option>
+				<option id="overGame" value="50">50</option>
+			</select>
+			<button id="reset">Reset</button>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="scorekeeper.js"></script>
+</body>
+
+</html>

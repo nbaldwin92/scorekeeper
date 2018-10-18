@@ -1,0 +1,187 @@
+html {
+  margin: 0;
+  height: 100%;
+  background-color: black;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 0.625em;
+  margin: auto;
+}
+
+p {
+  font-size: 1.8em;
+}
+
+img {
+  margin: auto;
+  width: 100px;
+  max-width: 100%;
+  height: 100px;
+}
+
+.container {
+  display: block;
+  margin: 0;
+  height: 1050px;
+  margin: none;
+  padding: none;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#heading {
+  font-size: 6em;
+}
+
+#playerScore {
+  font-size: 5em;
+}
+
+.tableContainer {
+  margin: auto;
+  width: 100%;
+  height: 606px;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.tableLeft {
+  float: left;
+  background-color: green;
+  width: 49%;
+  height: 600px;
+  vertical-align: middle;
+  border: solid 3px white;
+}
+
+.tableRight {
+  float: right;
+  background-color: green;
+  width: 49%;
+  height: 600px;
+  border: solid 3px white;
+}
+
+#p1Score {
+  margin-top: 30px;
+  font-size: 5em;
+}
+
+#p2Score {
+  margin-top: 30px;
+  font-size: 5em;
+}
+
+#p1-add {
+  font-size: 5em;
+  float: right;
+  margin-right: 100px;
+  background-color: Transparent;
+  color: white;
+  outline: none;
+}
+
+#p1-minus {
+  font-size: 5em;
+  float: left;
+  margin-left: 100px;
+  background-color: Transparent;
+  color: white;
+  outline: none;
+}
+
+#p2-add {
+  font-size: 5em;
+  float: right;
+  margin-right: 100px;
+  background-color: Transparent;
+  color: white;
+  outline: none;
+}
+
+#p2-minus {
+  display: flex;
+  font-size: 5em;
+  float: left;
+  margin: auto;
+  margin-left: 100px;
+  background-color: Transparent;
+  color: white;
+  outline: none;
+}
+
+#winner-display {
+  margin: auto;
+  height: 50px;
+  font-size: 3.4em;
+  color: #1cd465;
+}
+
+#pointSelectText {
+  margin-top: 20px;
+  font-size: 3em;
+}
+
+#scoreSelect {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  height: 50px;
+  width: 300px;
+  font-size: 2em;
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-radius: 4px;
+  text-align-last: center;
+}
+
+#halfGame, #fullGame {
+  text-indent: 5px;
+}
+
+#reset {
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  position: relative;
+  bottom: 30px;
+  margin: auto;
+  margin-top: 50px;
+  height: 50px;
+  width: 300px;
+  font-size: 1.8em;
+  color: #EDEDED;
+  background-color: #FC4349;
+  border-radius: 4px;
+  text-align: center;
+}
+
+hr {
+  display: block;
+  margin-top: -30px;
+  border-width: 1px;
+  border-color: white;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .tableLeft {
+    width: 100%;
+  }
+
+  .tableRight {
+    width: 100%;
+    float: left;
+  }
+
+}
